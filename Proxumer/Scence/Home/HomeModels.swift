@@ -6,12 +6,14 @@ enum Home {
   
     // MARK: Use cases
   
-    enum Something {
+    enum CheckCell {
         struct Request {
         }
         struct Response {
+            let result: Bool
         }
         struct ViewModel {
+            let result: Bool
         }
     }
     
