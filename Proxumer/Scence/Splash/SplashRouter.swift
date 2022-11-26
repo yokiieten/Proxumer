@@ -3,7 +3,7 @@
 import UIKit
 
 protocol SplashRoutingLogic {
-
+ func routeToHome()
 }
 
 protocol SplashDataPassing {
@@ -13,4 +13,8 @@ protocol SplashDataPassing {
 class SplashRouter: BaseRouter, SplashRoutingLogic, SplashDataPassing {
     var dataStore: SplashDataStore?
 
+    
+    func routeToHome() {
+        self.pushToHome()
+    }
 }

@@ -12,6 +12,45 @@
 		D99AAACF292E55F200D285DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99AAACE292E55F200D285DE /* ViewController.swift */; };
 		D99AAAD4292E55F400D285DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99AAAD3292E55F400D285DE /* Assets.xcassets */; };
 		D99AAAD7292E55F400D285DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99AAAD5292E55F400D285DE /* LaunchScreen.storyboard */; };
+		D99D7FB92931F16C0065079F /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FB32931F16C0065079F /* HomePresenter.swift */; };
+		D99D7FBA2931F16C0065079F /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FB42931F16C0065079F /* HomeWorker.swift */; };
+		D99D7FBB2931F16C0065079F /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FB52931F16C0065079F /* HomeRouter.swift */; };
+		D99D7FBC2931F16C0065079F /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FB62931F16C0065079F /* HomeModels.swift */; };
+		D99D7FBD2931F16C0065079F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FB72931F16C0065079F /* HomeViewController.swift */; };
+		D99D7FBE2931F16C0065079F /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FB82931F16C0065079F /* HomeInteractor.swift */; };
+		D99D7FC02931F1C80065079F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FBF2931F1C80065079F /* Home.storyboard */; };
+		D99D7FC82931F3900065079F /* BlankPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FC22931F3900065079F /* BlankPresenter.swift */; };
+		D99D7FC92931F3900065079F /* BlankWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FC32931F3900065079F /* BlankWorker.swift */; };
+		D99D7FCA2931F3900065079F /* BlankRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FC42931F3900065079F /* BlankRouter.swift */; };
+		D99D7FCB2931F3900065079F /* BlankModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FC52931F3900065079F /* BlankModels.swift */; };
+		D99D7FCC2931F3900065079F /* BlankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FC62931F3900065079F /* BlankViewController.swift */; };
+		D99D7FCD2931F3900065079F /* BlankInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FC72931F3900065079F /* BlankInteractor.swift */; };
+		D99D7FCF2931F39A0065079F /* Blank.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FCE2931F39A0065079F /* Blank.storyboard */; };
+		D99D7FE32931F69C0065079F /* Kanit-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FD12931F69C0065079F /* Kanit-ExtraLight.ttf */; };
+		D99D7FE42931F69C0065079F /* Kanit-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FD22931F69C0065079F /* Kanit-ThinItalic.ttf */; };
+		D99D7FE52931F69C0065079F /* Kanit-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FD32931F69C0065079F /* Kanit-BoldItalic.ttf */; };
+		D99D7FE62931F69C0065079F /* Kanit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FD42931F69C0065079F /* Kanit-SemiBold.ttf */; };
+		D99D7FE72931F69C0065079F /* Kanit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FD52931F69C0065079F /* Kanit-Black.ttf */; };
+		D99D7FE82931F69C0065079F /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FD62931F69C0065079F /* Kanit-Regular.ttf */; };
+		D99D7FE92931F69C0065079F /* Kanit-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FD72931F69C0065079F /* Kanit-Italic.ttf */; };
+		D99D7FEA2931F69C0065079F /* Kanit-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FD82931F69C0065079F /* Kanit-MediumItalic.ttf */; };
+		D99D7FEB2931F69C0065079F /* Kanit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FD92931F69C0065079F /* Kanit-Thin.ttf */; };
+		D99D7FEC2931F69C0065079F /* Kanit-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FDA2931F69C0065079F /* Kanit-ExtraBoldItalic.ttf */; };
+		D99D7FED2931F69C0065079F /* Kanit-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FDB2931F69C0065079F /* Kanit-ExtraBold.ttf */; };
+		D99D7FEE2931F69C0065079F /* Kanit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FDC2931F69C0065079F /* Kanit-Bold.ttf */; };
+		D99D7FEF2931F69C0065079F /* Kanit-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FDD2931F69C0065079F /* Kanit-SemiBoldItalic.ttf */; };
+		D99D7FF02931F69C0065079F /* Kanit-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FDE2931F69C0065079F /* Kanit-BlackItalic.ttf */; };
+		D99D7FF12931F69C0065079F /* Kanit-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FDF2931F69C0065079F /* Kanit-Light.ttf */; };
+		D99D7FF22931F69C0065079F /* Kanit-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FE02931F69C0065079F /* Kanit-LightItalic.ttf */; };
+		D99D7FF32931F69C0065079F /* Kanit-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FE12931F69C0065079F /* Kanit-ExtraLightItalic.ttf */; };
+		D99D7FF42931F69C0065079F /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FE22931F69C0065079F /* Kanit-Medium.ttf */; };
+		D99D7FFC2931F8FC0065079F /* AchievementPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FF62931F8FC0065079F /* AchievementPresenter.swift */; };
+		D99D7FFD2931F8FC0065079F /* AchievementWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FF72931F8FC0065079F /* AchievementWorker.swift */; };
+		D99D7FFE2931F8FC0065079F /* AchievementRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FF82931F8FC0065079F /* AchievementRouter.swift */; };
+		D99D7FFF2931F8FC0065079F /* AchievementModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FF92931F8FC0065079F /* AchievementModels.swift */; };
+		D99D80002931F8FC0065079F /* AchievementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FFA2931F8FC0065079F /* AchievementViewController.swift */; };
+		D99D80012931F8FC0065079F /* AchievementInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D7FFB2931F8FC0065079F /* AchievementInteractor.swift */; };
+		D99D80032931F9100065079F /* Achievement.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99D80022931F9100065079F /* Achievement.storyboard */; };
 		D9ABA3BF292E66F2002619A1 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ABA3BD292E66F2002619A1 /* MainTabBarViewController.swift */; };
 		D9ABA3C0292E66F2002619A1 /* MainTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9ABA3BE292E66F2002619A1 /* MainTabBar.storyboard */; };
 		D9ABA411292E6780002619A1 /* UIFont+Kanit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ABA410292E6780002619A1 /* UIFont+Kanit.swift */; };
@@ -40,6 +79,45 @@
 		D99AAAD3292E55F400D285DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D99AAAD6292E55F400D285DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D99AAAD8292E55F400D285DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D99D7FB32931F16C0065079F /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		D99D7FB42931F16C0065079F /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		D99D7FB52931F16C0065079F /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		D99D7FB62931F16C0065079F /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		D99D7FB72931F16C0065079F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D99D7FB82931F16C0065079F /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		D99D7FBF2931F1C80065079F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		D99D7FC22931F3900065079F /* BlankPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankPresenter.swift; sourceTree = "<group>"; };
+		D99D7FC32931F3900065079F /* BlankWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankWorker.swift; sourceTree = "<group>"; };
+		D99D7FC42931F3900065079F /* BlankRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankRouter.swift; sourceTree = "<group>"; };
+		D99D7FC52931F3900065079F /* BlankModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankModels.swift; sourceTree = "<group>"; };
+		D99D7FC62931F3900065079F /* BlankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankViewController.swift; sourceTree = "<group>"; };
+		D99D7FC72931F3900065079F /* BlankInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankInteractor.swift; sourceTree = "<group>"; };
+		D99D7FCE2931F39A0065079F /* Blank.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Blank.storyboard; sourceTree = "<group>"; };
+		D99D7FD12931F69C0065079F /* Kanit-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D99D7FD22931F69C0065079F /* Kanit-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D99D7FD32931F69C0065079F /* Kanit-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D99D7FD42931F69C0065079F /* Kanit-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-SemiBold.ttf"; sourceTree = "<group>"; };
+		D99D7FD52931F69C0065079F /* Kanit-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Black.ttf"; sourceTree = "<group>"; };
+		D99D7FD62931F69C0065079F /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Regular.ttf"; sourceTree = "<group>"; };
+		D99D7FD72931F69C0065079F /* Kanit-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Italic.ttf"; sourceTree = "<group>"; };
+		D99D7FD82931F69C0065079F /* Kanit-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D99D7FD92931F69C0065079F /* Kanit-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Thin.ttf"; sourceTree = "<group>"; };
+		D99D7FDA2931F69C0065079F /* Kanit-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D99D7FDB2931F69C0065079F /* Kanit-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D99D7FDC2931F69C0065079F /* Kanit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Bold.ttf"; sourceTree = "<group>"; };
+		D99D7FDD2931F69C0065079F /* Kanit-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D99D7FDE2931F69C0065079F /* Kanit-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D99D7FDF2931F69C0065079F /* Kanit-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Light.ttf"; sourceTree = "<group>"; };
+		D99D7FE02931F69C0065079F /* Kanit-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-LightItalic.ttf"; sourceTree = "<group>"; };
+		D99D7FE12931F69C0065079F /* Kanit-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		D99D7FE22931F69C0065079F /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.ttf"; sourceTree = "<group>"; };
+		D99D7FF62931F8FC0065079F /* AchievementPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementPresenter.swift; sourceTree = "<group>"; };
+		D99D7FF72931F8FC0065079F /* AchievementWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementWorker.swift; sourceTree = "<group>"; };
+		D99D7FF82931F8FC0065079F /* AchievementRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementRouter.swift; sourceTree = "<group>"; };
+		D99D7FF92931F8FC0065079F /* AchievementModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementModels.swift; sourceTree = "<group>"; };
+		D99D7FFA2931F8FC0065079F /* AchievementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementViewController.swift; sourceTree = "<group>"; };
+		D99D7FFB2931F8FC0065079F /* AchievementInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementInteractor.swift; sourceTree = "<group>"; };
+		D99D80022931F9100065079F /* Achievement.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Achievement.storyboard; sourceTree = "<group>"; };
 		D9ABA3BD292E66F2002619A1 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		D9ABA3BE292E66F2002619A1 /* MainTabBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainTabBar.storyboard; sourceTree = "<group>"; };
 		D9ABA410292E6780002619A1 /* UIFont+Kanit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Kanit.swift"; sourceTree = "<group>"; };
@@ -90,6 +168,7 @@
 		D99AAAC9292E55F200D285DE /* Proxumer */ = {
 			isa = PBXGroup;
 			children = (
+				D99D7FD02931F69C0065079F /* Fonts */,
 				D9ABA412292E6873002619A1 /* Base */,
 				D9ABA3BB292E6504002619A1 /* Scence */,
 				D99AAACA292E55F200D285DE /* AppDelegate.swift */,
@@ -102,9 +181,79 @@
 			path = Proxumer;
 			sourceTree = "<group>";
 		};
+		D99D7FB22931F1490065079F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D99D7FB32931F16C0065079F /* HomePresenter.swift */,
+				D99D7FB42931F16C0065079F /* HomeWorker.swift */,
+				D99D7FB52931F16C0065079F /* HomeRouter.swift */,
+				D99D7FB62931F16C0065079F /* HomeModels.swift */,
+				D99D7FB72931F16C0065079F /* HomeViewController.swift */,
+				D99D7FB82931F16C0065079F /* HomeInteractor.swift */,
+				D99D7FBF2931F1C80065079F /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D99D7FC12931F3280065079F /* Blank */ = {
+			isa = PBXGroup;
+			children = (
+				D99D7FC22931F3900065079F /* BlankPresenter.swift */,
+				D99D7FC32931F3900065079F /* BlankWorker.swift */,
+				D99D7FC42931F3900065079F /* BlankRouter.swift */,
+				D99D7FC52931F3900065079F /* BlankModels.swift */,
+				D99D7FC62931F3900065079F /* BlankViewController.swift */,
+				D99D7FC72931F3900065079F /* BlankInteractor.swift */,
+				D99D7FCE2931F39A0065079F /* Blank.storyboard */,
+			);
+			path = Blank;
+			sourceTree = "<group>";
+		};
+		D99D7FD02931F69C0065079F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D99D7FD12931F69C0065079F /* Kanit-ExtraLight.ttf */,
+				D99D7FD22931F69C0065079F /* Kanit-ThinItalic.ttf */,
+				D99D7FD32931F69C0065079F /* Kanit-BoldItalic.ttf */,
+				D99D7FD42931F69C0065079F /* Kanit-SemiBold.ttf */,
+				D99D7FD52931F69C0065079F /* Kanit-Black.ttf */,
+				D99D7FD62931F69C0065079F /* Kanit-Regular.ttf */,
+				D99D7FD72931F69C0065079F /* Kanit-Italic.ttf */,
+				D99D7FD82931F69C0065079F /* Kanit-MediumItalic.ttf */,
+				D99D7FD92931F69C0065079F /* Kanit-Thin.ttf */,
+				D99D7FDA2931F69C0065079F /* Kanit-ExtraBoldItalic.ttf */,
+				D99D7FDB2931F69C0065079F /* Kanit-ExtraBold.ttf */,
+				D99D7FDC2931F69C0065079F /* Kanit-Bold.ttf */,
+				D99D7FDD2931F69C0065079F /* Kanit-SemiBoldItalic.ttf */,
+				D99D7FDE2931F69C0065079F /* Kanit-BlackItalic.ttf */,
+				D99D7FDF2931F69C0065079F /* Kanit-Light.ttf */,
+				D99D7FE02931F69C0065079F /* Kanit-LightItalic.ttf */,
+				D99D7FE12931F69C0065079F /* Kanit-ExtraLightItalic.ttf */,
+				D99D7FE22931F69C0065079F /* Kanit-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D99D7FF52931F8D70065079F /* Achievement */ = {
+			isa = PBXGroup;
+			children = (
+				D99D7FF62931F8FC0065079F /* AchievementPresenter.swift */,
+				D99D7FF72931F8FC0065079F /* AchievementWorker.swift */,
+				D99D7FF82931F8FC0065079F /* AchievementRouter.swift */,
+				D99D7FF92931F8FC0065079F /* AchievementModels.swift */,
+				D99D7FFA2931F8FC0065079F /* AchievementViewController.swift */,
+				D99D7FFB2931F8FC0065079F /* AchievementInteractor.swift */,
+				D99D80022931F9100065079F /* Achievement.storyboard */,
+			);
+			path = Achievement;
+			sourceTree = "<group>";
+		};
 		D9ABA3BB292E6504002619A1 /* Scence */ = {
 			isa = PBXGroup;
 			children = (
+				D99D7FF52931F8D70065079F /* Achievement */,
+				D99D7FC12931F3280065079F /* Blank */,
+				D99D7FB22931F1490065079F /* Home */,
 				D9ABA439292E6C3B002619A1 /* Splash */,
 				D9ABA3C1292E6715002619A1 /* Extensions */,
 				D9ABA3BC292E66AB002619A1 /* MainTabBar */,
@@ -224,10 +373,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99D7FE52931F69C0065079F /* Kanit-BoldItalic.ttf in Resources */,
+				D99D7FF42931F69C0065079F /* Kanit-Medium.ttf in Resources */,
 				D99AAAD7292E55F400D285DE /* LaunchScreen.storyboard in Resources */,
+				D99D7FF32931F69C0065079F /* Kanit-ExtraLightItalic.ttf in Resources */,
+				D99D7FE72931F69C0065079F /* Kanit-Black.ttf in Resources */,
+				D99D7FE92931F69C0065079F /* Kanit-Italic.ttf in Resources */,
+				D99D7FEF2931F69C0065079F /* Kanit-SemiBoldItalic.ttf in Resources */,
+				D99D80032931F9100065079F /* Achievement.storyboard in Resources */,
+				D99D7FF22931F69C0065079F /* Kanit-LightItalic.ttf in Resources */,
+				D99D7FEC2931F69C0065079F /* Kanit-ExtraBoldItalic.ttf in Resources */,
+				D99D7FC02931F1C80065079F /* Home.storyboard in Resources */,
+				D99D7FF12931F69C0065079F /* Kanit-Light.ttf in Resources */,
+				D99D7FEA2931F69C0065079F /* Kanit-MediumItalic.ttf in Resources */,
 				D9ABA3C0292E66F2002619A1 /* MainTabBar.storyboard in Resources */,
+				D99D7FCF2931F39A0065079F /* Blank.storyboard in Resources */,
+				D99D7FEE2931F69C0065079F /* Kanit-Bold.ttf in Resources */,
+				D99D7FE32931F69C0065079F /* Kanit-ExtraLight.ttf in Resources */,
+				D99D7FF02931F69C0065079F /* Kanit-BlackItalic.ttf in Resources */,
+				D99D7FE42931F69C0065079F /* Kanit-ThinItalic.ttf in Resources */,
 				D99AAAD4292E55F400D285DE /* Assets.xcassets in Resources */,
 				D9ABA447292E6C81002619A1 /* Splash.storyboard in Resources */,
+				D99D7FE62931F69C0065079F /* Kanit-SemiBold.ttf in Resources */,
+				D99D7FED2931F69C0065079F /* Kanit-ExtraBold.ttf in Resources */,
+				D99D7FE82931F69C0065079F /* Kanit-Regular.ttf in Resources */,
+				D99D7FEB2931F69C0065079F /* Kanit-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,18 +408,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99D7FC92931F3900065079F /* BlankWorker.swift in Sources */,
 				D9ABA449292E7701002619A1 /* ViewExtension.swift in Sources */,
+				D99D7FBA2931F16C0065079F /* HomeWorker.swift in Sources */,
 				D9ABA442292E6C6D002619A1 /* SplashRouter.swift in Sources */,
 				D9ABA435292E6873002619A1 /* BaseWorker.swift in Sources */,
+				D99D7FCA2931F3900065079F /* BlankRouter.swift in Sources */,
+				D99D7FB92931F16C0065079F /* HomePresenter.swift in Sources */,
+				D99D7FFD2931F8FC0065079F /* AchievementWorker.swift in Sources */,
+				D99D7FBC2931F16C0065079F /* HomeModels.swift in Sources */,
 				D99AAACF292E55F200D285DE /* ViewController.swift in Sources */,
+				D99D7FFF2931F8FC0065079F /* AchievementModels.swift in Sources */,
+				D99D7FCC2931F3900065079F /* BlankViewController.swift in Sources */,
 				D9ABA44B292E7738002619A1 /* UINavigationController.swift in Sources */,
+				D99D7FBE2931F16C0065079F /* HomeInteractor.swift in Sources */,
 				D9ABA437292E6873002619A1 /* BaseRouter.swift in Sources */,
+				D99D7FCD2931F3900065079F /* BlankInteractor.swift in Sources */,
 				D9ABA3BF292E66F2002619A1 /* MainTabBarViewController.swift in Sources */,
 				D99AAACB292E55F200D285DE /* AppDelegate.swift in Sources */,
+				D99D7FBD2931F16C0065079F /* HomeViewController.swift in Sources */,
 				D9ABA436292E6873002619A1 /* BasePresenter.swift in Sources */,
 				D9ABA438292E6873002619A1 /* BaseViewModels.swift in Sources */,
+				D99D7FFE2931F8FC0065079F /* AchievementRouter.swift in Sources */,
+				D99D7FCB2931F3900065079F /* BlankModels.swift in Sources */,
 				D9ABA441292E6C6D002619A1 /* SplashWorker.swift in Sources */,
 				D9ABA440292E6C6D002619A1 /* SplashPresenter.swift in Sources */,
+				D99D7FFC2931F8FC0065079F /* AchievementPresenter.swift in Sources */,
+				D99D80002931F8FC0065079F /* AchievementViewController.swift in Sources */,
+				D99D80012931F8FC0065079F /* AchievementInteractor.swift in Sources */,
+				D99D7FC82931F3900065079F /* BlankPresenter.swift in Sources */,
 				D9ABA443292E6C6D002619A1 /* SplashModels.swift in Sources */,
 				D9ABA444292E6C6D002619A1 /* SplashViewController.swift in Sources */,
 				D99AAACD292E55F200D285DE /* SceneDelegate.swift in Sources */,
@@ -257,6 +444,7 @@
 				D9ABA433292E6873002619A1 /* BaseViewController.swift in Sources */,
 				D9ABA411292E6780002619A1 /* UIFont+Kanit.swift in Sources */,
 				D9ABA434292E6873002619A1 /* BaseInteractor.swift in Sources */,
+				D99D7FBB2931F16C0065079F /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

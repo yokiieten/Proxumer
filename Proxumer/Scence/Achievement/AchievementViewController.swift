@@ -1,13 +1,13 @@
-//  Created by Sahassawat on 23/11/2565 BE.
+//  Created by Sahassawat on 26/11/2565 BE.
 
 import UIKit
 
-protocol SplashDisplayLogic: BaseDisplayLogic {
+protocol AchievementDisplayLogic: BaseDisplayLogic {
 }
 
-class SplashViewController: BaseViewController {
-    var interactor: SplashBusinessLogic?
-    var router: (SplashRoutingLogic & SplashDataPassing)?
+class AchievementViewController: BaseViewController {
+    var interactor: AchievementBusinessLogic?
+    var router: (AchievementRoutingLogic & AchievementDataPassing)?
 
     // MARK: Object lifecycle
   
@@ -18,11 +18,11 @@ class SplashViewController: BaseViewController {
   
     // MARK: Setup
   
-    func configure(viewController: SplashViewController) {
-        let interactor = SplashInteractor()
-        let presenter = SplashPresenter()
-        let router = SplashRouter()
-        let worker = SplashWorker()
+    func configure(viewController: AchievementViewController) {
+        let interactor = AchievementInteractor()
+        let presenter = AchievementPresenter()
+        let router = AchievementRouter()
+        let worker = AchievementWorker()
         viewController.interactor = interactor
         viewController.router = router
         interactor.presenter = presenter
@@ -36,11 +36,11 @@ class SplashViewController: BaseViewController {
   
     override func viewDidLoad() {
         super.viewDidLoad()
-        router?.routeToHome()
+        
     }
 
 }
 
-extension SplashViewController: SplashDisplayLogic {
+extension AchievementViewController: AchievementDisplayLogic {
     
 }

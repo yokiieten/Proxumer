@@ -149,6 +149,7 @@ class BaseRouter {
 }
 
 extension BaseRouter {
+    
     func pushToHome() {
         let controller = getViewController(storyboard: .MainTabBar, expectedVC: MainTabBarViewController.self)
         let nav = UINavigationController(rootViewController: controller)
@@ -169,8 +170,6 @@ extension BaseRouter {
                           completion: nil)
     }
     
-    func openURLSafariServices(url: String) {
-        guard let url = URL(string: url) else { return }
-        UIApplication.shared.open(url)
-    }
 }
+
+
