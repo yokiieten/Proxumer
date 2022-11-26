@@ -36,7 +36,7 @@ class SplashViewController: BaseViewController {
   
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("kuy")
+        
     }
 
 }
