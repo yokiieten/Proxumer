@@ -8,7 +8,7 @@ protocol AchievementDisplayLogic: BaseDisplayLogic {
 class AchievementViewController: BaseViewController {
     var interactor: AchievementBusinessLogic?
     var router: (AchievementRoutingLogic & AchievementDataPassing)?
-
+    @IBOutlet weak var achievementCollectionView: UICollectionView!
     // MARK: Object lifecycle
   
     override public func awakeFromNib() {
@@ -36,7 +36,13 @@ class AchievementViewController: BaseViewController {
   
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupCollectionView()
+    }
+    
+    private func setupCollectionView() {
+        achievementCollectionView.registerCells(classNames: [AchievementCollectionViewCell.reuseIdentifer])
+        achievementCollectionView.delegate = self
+        achievementCollectionView.dataSource = self
     }
 
 }
@@ -44,3 +50,31 @@ class AchievementViewController: BaseViewController {
 extension AchievementViewController: AchievementDisplayLogic {
     
 }
+
+extension AchievementViewController: UICollectionViewDataSource {
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+     return 8
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AchievementCollectionViewCell.reuseIdentifer, for: indexPath) as? AchievementCollectionViewCell else { return UICollectionViewCell() }
+        return cell
+    }
+    
+}
+
+extension AchievementViewController: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let padding: CGFloat = 16
+        return CGSize(width: ((collectionView.frame.width - (padding * 4)) / 3) , height: (collectionView.frame.height - 64) / 3 )
+        
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 24, left: 16, bottom: 24, right: 16)
+    }
+}
+
