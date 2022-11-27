@@ -280,7 +280,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C13CA865-761C-476C-97F4-202303078606"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Proxumer/Scence/Home/HomeViewController.swift"
@@ -296,7 +296,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "9E14CBD6-903B-44BC-B259-2DFD8A2B340E"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Proxumer/Scence/Home/HomeViewController.swift"

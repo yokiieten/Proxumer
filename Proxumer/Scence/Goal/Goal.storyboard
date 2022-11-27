@@ -17,11 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RIf-Aw-cik">
+                            <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RIf-Aw-cik">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="966"/>
                                 <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bhm-mP-BX8">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="30"/>
+                                        <color key="backgroundColor" red="0.87058818339999999" green="0.65098041299999998" blue="0.2588235438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="OwA-jE-M9I"/>
+                                        </constraints>
+                                    </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nvf-QY-FNU" userLabel="Header View">
-                                        <rect key="frame" x="0.0" y="83" width="393" height="150"/>
+                                        <rect key="frame" x="0.0" y="30" width="393" height="150"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Lzi-Gz-1Nc">
                                                 <rect key="frame" x="24" y="24" width="345" height="102"/>
@@ -53,13 +60,13 @@
                                         </constraints>
                                     </view>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ev-IQ-s9E">
-                                        <rect key="frame" x="0.0" y="233" width="393" height="709"/>
+                                        <rect key="frame" x="0.0" y="180" width="393" height="786"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fVV-JG-T4t">
-                                                <rect key="frame" x="0.0" y="0.0" width="393" height="564.66666666666663"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="588.66666666666663"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="6Bm-M8-ZWQ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="564.66666666666663"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="588.66666666666663"/>
                                                         <subviews>
                                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Mcs-ya-kqq">
                                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="250"/>
@@ -87,7 +94,7 @@
                                                                                 <textInputTraits key="textInputTraits"/>
                                                                             </textField>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4j7-Kl-bQJ">
-                                                                                <rect key="frame" x="297.33333333333331" y="6.6666666666666288" width="31.666666666666686" height="18.666666666666668"/>
+                                                                                <rect key="frame" x="297.33333333333331" y="6.6666666666666874" width="31.666666666666686" height="18.666666666666671"/>
                                                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
                                                                                 <color key="textColor" red="0.84622699020000003" green="0.29334732889999998" blue="0.19315871600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                 <nil key="highlightedColor"/>
@@ -157,7 +164,7 @@
                                                                 <edgeInsets key="layoutMargins" top="0.0" left="24" bottom="0.0" right="24"/>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="8I8-ww-V2l">
-                                                                <rect key="frame" x="0.0" y="402" width="393" height="130.66666666666663"/>
+                                                                <rect key="frame" x="0.0" y="402" width="393" height="154.66666666666663"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bank Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNA-4D-tyL">
                                                                         <rect key="frame" x="24" y="0.0" width="345" height="18.666666666666668"/>
@@ -241,7 +248,7 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                 </subviews>
-                                                                <edgeInsets key="layoutMargins" top="0.0" left="24" bottom="0.0" right="24"/>
+                                                                <edgeInsets key="layoutMargins" top="0.0" left="24" bottom="24" right="24"/>
                                                             </stackView>
                                                         </subviews>
                                                         <directionalEdgeInsets key="directionalLayoutMargins" top="0.0" leading="0.0" bottom="32" trailing="0.0"/>
@@ -264,7 +271,6 @@
                                         </constraints>
                                     </scrollView>
                                 </subviews>
-                                <edgeInsets key="layoutMargins" top="24" left="0.0" bottom="24" right="0.0"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>

@@ -39,12 +39,12 @@
                                         <rect key="frame" x="0.0" y="30" width="414" height="1036"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gre-MO-qA2">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="910"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="958"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="bsb-Bu-ULc" userLabel="Header Stack View">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="bsb-Bu-ULc" userLabel="Detail Stack View">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="910"/>
                                                         <subviews>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LVe-jA-BbA">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LVe-jA-BbA" userLabel="Header View">
                                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="376"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Bwx-Vv-aFq">
@@ -276,7 +276,7 @@
                                                     <constraint firstItem="bsb-Bu-ULc" firstAttribute="leading" secondItem="Gre-MO-qA2" secondAttribute="leading" id="0WU-5B-ux6"/>
                                                     <constraint firstAttribute="trailing" secondItem="bsb-Bu-ULc" secondAttribute="trailing" id="Hfz-qo-QXm"/>
                                                     <constraint firstItem="bsb-Bu-ULc" firstAttribute="top" secondItem="Gre-MO-qA2" secondAttribute="top" id="Ydy-9H-ND4"/>
-                                                    <constraint firstAttribute="bottom" secondItem="bsb-Bu-ULc" secondAttribute="bottom" id="qt6-SM-Dy6"/>
+                                                    <constraint firstAttribute="bottom" secondItem="bsb-Bu-ULc" secondAttribute="bottom" constant="48" id="qt6-SM-Dy6"/>
                                                 </constraints>
                                             </view>
                                         </subviews>

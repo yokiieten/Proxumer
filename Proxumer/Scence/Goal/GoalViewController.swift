@@ -15,6 +15,7 @@ class GoalViewController: BaseViewController {
     override public func awakeFromNib() {
         super.awakeFromNib()
         configure(viewController: self)
+        hideNavigation(true)
     }
     
     // MARK: Setup
