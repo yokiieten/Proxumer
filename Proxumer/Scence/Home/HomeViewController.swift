@@ -58,6 +58,7 @@ class HomeViewController: BaseViewController {
     }
     
     @IBAction func newGoal(_ sender: Any) {
+        router?.routeToAchievement()
     }
     
 

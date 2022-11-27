@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" red="0.062745098040000002" green="0.56470588239999997" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.79230463500000003" green="0.36212974790000002" blue="0.28427141900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="ML4-GO-rV5" kind="relationship" relationship="viewControllers" id="ZG8-My-Y1u"/>
@@ -31,9 +32,9 @@
         <scene sceneID="joh-Em-s8i">
             <objects>
                 <navigationController id="ML4-GO-rV5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="home_inactive" selectedImage="home_active" id="oxJ-XB-faQ"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" selectedImage="house" id="oxJ-XB-faQ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gRg-AH-WvQ">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -60,9 +61,9 @@
         <scene sceneID="9jd-X8-ml3">
             <objects>
                 <navigationController id="AAW-oK-dDY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="blank" image="rectangle.portrait.and.arrow.right" catalog="system" selectedImage="rectangle.portrait.and.arrow.right.fill" id="qIb-n2-cN2"/>
+                    <tabBarItem key="tabBarItem" title="blank" image="wallet.pass.fill" catalog="system" selectedImage="wallet.pass" id="qIb-n2-cN2"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bFD-EZ-iAG">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -85,13 +86,13 @@
             </objects>
             <point key="canvasLocation" x="-1907" y="1126"/>
         </scene>
-        <!--Item-->
+        <!--Achievement-->
         <scene sceneID="reG-uC-XM7">
             <objects>
                 <navigationController id="4OH-yA-Dwa" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="book.fill" catalog="system" selectedImage="book.closed" id="ixL-wY-Bht"/>
+                    <tabBarItem key="tabBarItem" title="Achievement" image="trophy.fill" catalog="system" selectedImage="trophy" id="ixL-wY-Bht"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aLw-5R-iIv">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -114,11 +115,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="book.closed" catalog="system" width="115" height="128"/>
-        <image name="book.fill" catalog="system" width="128" height="95"/>
-        <image name="home_active" width="24" height="24"/>
-        <image name="home_inactive" width="24" height="24"/>
-        <image name="rectangle.portrait.and.arrow.right" catalog="system" width="128" height="108"/>
-        <image name="rectangle.portrait.and.arrow.right.fill" catalog="system" width="128" height="108"/>
+        <image name="house" catalog="system" width="128" height="104"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="trophy" catalog="system" width="128" height="128"/>
+        <image name="trophy.fill" catalog="system" width="128" height="128"/>
+        <image name="wallet.pass" catalog="system" width="115" height="128"/>
+        <image name="wallet.pass.fill" catalog="system" width="115" height="128"/>
     </resources>
 </document>

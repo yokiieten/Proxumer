@@ -67,7 +67,7 @@ class TabBarWithCorners: UITabBar {
     private func createPath() -> CGPath {
         let path = UIBezierPath(
             roundedRect: bounds,
-            byRoundingCorners: [.topLeft, .topRight],
+            byRoundingCorners: [],
             cornerRadii: CGSize(width: radius, height: 0.0))
 
         return path.cgPath

@@ -13,9 +13,5 @@ class TravelCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-    
-    func setBoder(vaule: Bool) {
-        self.borderColor = vaule ? .red : .green
-    }
 
 }
