@@ -42,6 +42,7 @@ class HomeViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupCollectionView()
+        hideNavigation(true)
         
     }
     
@@ -58,10 +59,9 @@ class HomeViewController: BaseViewController {
     }
     
     @IBAction func newGoal(_ sender: Any) {
-        router?.routeToAchievement()
+        router?.routeToGoal()
     }
     
-
 }
 
 extension HomeViewController: HomeDisplayLogic {

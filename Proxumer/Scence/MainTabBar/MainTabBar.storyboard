@@ -4,6 +4,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,6 +24,7 @@
                         <segue destination="ML4-GO-rV5" kind="relationship" relationship="viewControllers" id="ZG8-My-Y1u"/>
                         <segue destination="AAW-oK-dDY" kind="relationship" relationship="viewControllers" id="KNo-kL-le1"/>
                         <segue destination="4OH-yA-Dwa" kind="relationship" relationship="viewControllers" id="s57-aH-8Ll"/>
+                        <segue destination="GZq-zA-vjq" kind="relationship" relationship="viewControllers" id="GEw-yy-dNd"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SAS-WM-sVm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -103,6 +106,22 @@
             </objects>
             <point key="canvasLocation" x="-907" y="702"/>
         </scene>
+        <!--Profile-->
+        <scene sceneID="nfs-wN-DBF">
+            <objects>
+                <viewController id="GZq-zA-vjq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ovg-cm-BGZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="71w-fC-vV7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.crop.circle.fill" catalog="system" badgeValue="10" selectedImage="person.crop.circle" id="APv-0J-wuN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2KM-WN-gmM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49" y="704"/>
+        </scene>
         <!--AchievementViewController-->
         <scene sceneID="jLC-FO-bKm">
             <objects>
@@ -117,9 +136,14 @@
     <resources>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="123"/>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="123"/>
         <image name="trophy" catalog="system" width="128" height="128"/>
         <image name="trophy.fill" catalog="system" width="128" height="128"/>
         <image name="wallet.pass" catalog="system" width="115" height="128"/>
         <image name="wallet.pass.fill" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

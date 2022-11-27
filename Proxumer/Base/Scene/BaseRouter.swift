@@ -6,6 +6,7 @@ enum Storyboard: String {
     case MainTabBar = "MainTabBarViewController"
     case Home = "HomeViewController"
     case Achievement = "AchievementViewController"
+    case Goal = "GoalViewController"
 
     var viewcontrollerId: String {
         return rawValue

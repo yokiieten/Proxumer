@@ -3,7 +3,7 @@
 import UIKit
 
 protocol HomeRoutingLogic {
-    func routeToAchievement()
+    func routeToGoal()
 }
 
 protocol HomeDataPassing {
@@ -13,8 +13,8 @@ protocol HomeDataPassing {
 class HomeRouter: BaseRouter, HomeRoutingLogic, HomeDataPassing {
     var dataStore: HomeDataStore?
     
-    func routeToAchievement() {
-        let vc = getViewController(storyboard: .Achievement, expectedVC: AchievementViewController.self)
+    func routeToGoal() {
+        let vc = getViewController(storyboard: .Goal, expectedVC: GoalViewController.self)
         pushViewController(vc)
     }
 

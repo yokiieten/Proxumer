@@ -90,6 +90,15 @@
 		D9EAE97529334E9400059230 /* AchievementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAE97329334E9400059230 /* AchievementCollectionViewCell.swift */; };
 		D9EAE97629334E9400059230 /* AchievementCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9EAE97429334E9400059230 /* AchievementCollectionViewCell.xib */; };
 		D9EAE97729334F3300059230 /* Kanit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99D7FD52931F69C0065079F /* Kanit-Black.ttf */; };
+		D9EAE97F293356EA00059230 /* GoalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAE979293356EA00059230 /* GoalPresenter.swift */; };
+		D9EAE980293356EA00059230 /* GoalWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAE97A293356EA00059230 /* GoalWorker.swift */; };
+		D9EAE981293356EA00059230 /* GoalRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAE97B293356EA00059230 /* GoalRouter.swift */; };
+		D9EAE982293356EA00059230 /* GoalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAE97C293356EA00059230 /* GoalModels.swift */; };
+		D9EAE983293356EA00059230 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAE97D293356EA00059230 /* GoalViewController.swift */; };
+		D9EAE984293356EA00059230 /* GoalInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAE97E293356EA00059230 /* GoalInteractor.swift */; };
+		D9EAE986293356F400059230 /* Goal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EAE985293356F400059230 /* Goal.storyboard */; };
+		D9EAE98A2933B03500059230 /* GoalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAE9882933B03500059230 /* GoalCollectionViewCell.swift */; };
+		D9EAE98B2933B03500059230 /* GoalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9EAE9892933B03500059230 /* GoalCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -178,6 +187,15 @@
 		D9ABA44A292E7738002619A1 /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		D9EAE97329334E9400059230 /* AchievementCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCollectionViewCell.swift; sourceTree = "<group>"; };
 		D9EAE97429334E9400059230 /* AchievementCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AchievementCollectionViewCell.xib; sourceTree = "<group>"; };
+		D9EAE979293356EA00059230 /* GoalPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalPresenter.swift; sourceTree = "<group>"; };
+		D9EAE97A293356EA00059230 /* GoalWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalWorker.swift; sourceTree = "<group>"; };
+		D9EAE97B293356EA00059230 /* GoalRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalRouter.swift; sourceTree = "<group>"; };
+		D9EAE97C293356EA00059230 /* GoalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalModels.swift; sourceTree = "<group>"; };
+		D9EAE97D293356EA00059230 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		D9EAE97E293356EA00059230 /* GoalInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalInteractor.swift; sourceTree = "<group>"; };
+		D9EAE985293356F400059230 /* Goal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Goal.storyboard; sourceTree = "<group>"; };
+		D9EAE9882933B03500059230 /* GoalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCollectionViewCell.swift; sourceTree = "<group>"; };
+		D9EAE9892933B03500059230 /* GoalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,6 +387,7 @@
 		D9ABA3BB292E6504002619A1 /* Scence */ = {
 			isa = PBXGroup;
 			children = (
+				D9EAE978293356BC00059230 /* Goal */,
 				D99D7FF52931F8D70065079F /* Achievement */,
 				D99D7FC12931F3280065079F /* Blank */,
 				D99D7FB22931F1490065079F /* Home */,
@@ -438,6 +457,30 @@
 			children = (
 				D9EAE97329334E9400059230 /* AchievementCollectionViewCell.swift */,
 				D9EAE97429334E9400059230 /* AchievementCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D9EAE978293356BC00059230 /* Goal */ = {
+			isa = PBXGroup;
+			children = (
+				D9EAE9872933B02000059230 /* Cell */,
+				D9EAE979293356EA00059230 /* GoalPresenter.swift */,
+				D9EAE97A293356EA00059230 /* GoalWorker.swift */,
+				D9EAE97B293356EA00059230 /* GoalRouter.swift */,
+				D9EAE97C293356EA00059230 /* GoalModels.swift */,
+				D9EAE97D293356EA00059230 /* GoalViewController.swift */,
+				D9EAE97E293356EA00059230 /* GoalInteractor.swift */,
+				D9EAE985293356F400059230 /* Goal.storyboard */,
+			);
+			path = Goal;
+			sourceTree = "<group>";
+		};
+		D9EAE9872933B02000059230 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D9EAE9882933B03500059230 /* GoalCollectionViewCell.swift */,
+				D9EAE9892933B03500059230 /* GoalCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -517,6 +560,7 @@
 				D99D7FCF2931F39A0065079F /* Blank.storyboard in Resources */,
 				D99D7FEE2931F69C0065079F /* Kanit-Bold.ttf in Resources */,
 				D99D7FE32931F69C0065079F /* Kanit-ExtraLight.ttf in Resources */,
+				D9EAE98B2933B03500059230 /* GoalCollectionViewCell.xib in Resources */,
 				D9EAE97629334E9400059230 /* AchievementCollectionViewCell.xib in Resources */,
 				D99D7FF02931F69C0065079F /* Kanit-BlackItalic.ttf in Resources */,
 				D99D7FE42931F69C0065079F /* Kanit-ThinItalic.ttf in Resources */,
@@ -527,6 +571,7 @@
 				D99839032932423A00D9AAA9 /* SuggestCollectionViewCell.xib in Resources */,
 				D99D7FED2931F69C0065079F /* Kanit-ExtraBold.ttf in Resources */,
 				D9EAE97729334F3300059230 /* Kanit-Black.ttf in Resources */,
+				D9EAE986293356F400059230 /* Goal.storyboard in Resources */,
 				D99D7FE82931F69C0065079F /* Kanit-Regular.ttf in Resources */,
 				D99D7FEB2931F69C0065079F /* Kanit-Thin.ttf in Resources */,
 			);
@@ -547,8 +592,11 @@
 				D99D801D29320A8D0065079F /* TextLayoutInfoProvider.swift in Sources */,
 				D9ABA442292E6C6D002619A1 /* SplashRouter.swift in Sources */,
 				D99839082932461900D9AAA9 /* UICollectionViewCell.swift in Sources */,
+				D9EAE980293356EA00059230 /* GoalWorker.swift in Sources */,
+				D9EAE984293356EA00059230 /* GoalInteractor.swift in Sources */,
 				D99D801B29320A8D0065079F /* TextContainerData.swift in Sources */,
 				D9ABA435292E6873002619A1 /* BaseWorker.swift in Sources */,
+				D9EAE98A2933B03500059230 /* GoalCollectionViewCell.swift in Sources */,
 				D99D7FCA2931F3900065079F /* BlankRouter.swift in Sources */,
 				D99D7FB92931F16C0065079F /* HomePresenter.swift in Sources */,
 				D99D800E29320A5C0065079F /* DeviceSize.swift in Sources */,
@@ -568,14 +616,18 @@
 				D99D7FCD2931F3900065079F /* BlankInteractor.swift in Sources */,
 				D9ABA3BF292E66F2002619A1 /* MainTabBarViewController.swift in Sources */,
 				D99839022932423A00D9AAA9 /* SuggestCollectionViewCell.swift in Sources */,
+				D9EAE982293356EA00059230 /* GoalModels.swift in Sources */,
 				D99AAACB292E55F200D285DE /* AppDelegate.swift in Sources */,
 				D99D7FBD2931F16C0065079F /* HomeViewController.swift in Sources */,
 				D9ABA436292E6873002619A1 /* BasePresenter.swift in Sources */,
 				D99D801929320A8D0065079F /* RangeMap.swift in Sources */,
 				D99D801729320A8D0065079F /* HyperLabelPresenter.swift in Sources */,
+				D9EAE97F293356EA00059230 /* GoalPresenter.swift in Sources */,
+				D9EAE981293356EA00059230 /* GoalRouter.swift in Sources */,
 				D9ABA438292E6873002619A1 /* BaseViewModels.swift in Sources */,
 				D99D7FFE2931F8FC0065079F /* AchievementRouter.swift in Sources */,
 				D99838FD293241E100D9AAA9 /* BestOfferCollectionViewCell.swift in Sources */,
+				D9EAE983293356EA00059230 /* GoalViewController.swift in Sources */,
 				D99D7FCB2931F3900065079F /* BlankModels.swift in Sources */,
 				D9ABA441292E6C6D002619A1 /* SplashWorker.swift in Sources */,
 				D9ABA440292E6C6D002619A1 /* SplashPresenter.swift in Sources */,

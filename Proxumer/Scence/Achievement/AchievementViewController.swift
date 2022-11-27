@@ -69,7 +69,7 @@ extension AchievementViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let padding: CGFloat = 16
-        return CGSize(width: ((collectionView.frame.width - (padding * 4)) / 3) , height: (collectionView.frame.height - 64) / 3 )
+        return CGSize(width: ((collectionView.frame.width - (padding * 4)) / 3) , height: ((collectionView.frame.width ) / 3))
         
     }
     
